@@ -16,6 +16,7 @@ class GamesController < ApplicationController
   end
 
   def create
+    pry
     @game = Game.new(state:params[:state])
     #@game = Game.new(game_params)
     @game.save
