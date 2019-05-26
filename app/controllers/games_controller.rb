@@ -11,7 +11,7 @@ class GamesController < ApplicationController
   end
 
   def update
-    @game.update_attributes(game_params)
+    
     render json: @game, status:201
   end
 
