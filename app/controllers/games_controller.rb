@@ -1,4 +1,5 @@
 class GamesController < ApplicationController
+  before_action :set_game, only:[:show,:update]
   # Add your GamesController code here
   def index
 
