@@ -16,7 +16,6 @@ class GamesController < ApplicationController
   end
 
   def create
-    pry
     @game = Game.new(state:params[:state])
     @game.save
     render json: @game,status:201
