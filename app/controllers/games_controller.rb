@@ -11,7 +11,7 @@ class GamesController < ApplicationController
   end
 
   def update
-
+    pry
     render json: @game, status:201
   end
 
