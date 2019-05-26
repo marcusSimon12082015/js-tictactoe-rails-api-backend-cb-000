@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   get '/games/:id', to:'games#show'
   patch '/games/:id', to:'games#update'
   get '/games', to:'games#index'
-  
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
