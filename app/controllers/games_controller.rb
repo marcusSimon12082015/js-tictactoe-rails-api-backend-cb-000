@@ -2,7 +2,7 @@ class GamesController < ApplicationController
   before_action :set_game, only:[:show,:update]
   # Add your GamesController code here
   def index
-    @games = Game.all 
+    @games = Game.all
     render json: @games, status:201
   end
 
