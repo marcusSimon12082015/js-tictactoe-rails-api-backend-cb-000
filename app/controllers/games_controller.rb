@@ -6,7 +6,7 @@ class GamesController < ApplicationController
   end
 
   def show
-
+    render json: @game, status:201
   end
 
   def update
