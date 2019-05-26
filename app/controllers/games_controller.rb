@@ -6,7 +6,6 @@ class GamesController < ApplicationController
   end
 
   def show
-    pry
     render json: @game, status:201
   end
 
