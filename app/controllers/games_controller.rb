@@ -14,7 +14,7 @@ class GamesController < ApplicationController
   end
 
   def create
-    
+
   end
 
   private
@@ -23,7 +23,7 @@ class GamesController < ApplicationController
     @game = Game.find(params[:id])
   end
 
-  def game_params 
+  def game_params
     params.require(:game).permit(:state)
-  end 
+  end
 end
